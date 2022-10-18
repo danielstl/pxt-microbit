@@ -1,6 +1,6 @@
 {
   "build": {
-    "target": "bbc-microbit-classic-gcc,*",
+    "target": "bbc-microbit-classic-gcc@danielstl/yotta-target-bbc-microbit-classic-gcc,*",
     "targetSetExplicitly": true
   }
 }

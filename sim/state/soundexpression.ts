@@ -2,11 +2,11 @@ namespace pxsim.music {
     //%
     export function __playSoundExpression(notes: string, waitTillDone: boolean): void {
         notes = lookupBuiltIn(notes);
-        pxsim.codal.music.__playSoundExpression(notes, waitTillDone);
+     //   pxsim.codal.music.__playSoundExpression(notes, waitTillDone);
     }
 
     export function __stopSoundExpressions() {
-        pxsim.codal.music.__stopSoundExpressions();
+     //   pxsim.codal.music.__stopSoundExpressions();
     }
 
     const giggle = "giggle";
